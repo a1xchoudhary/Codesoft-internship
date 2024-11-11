@@ -1,0 +1,159 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  /* Header Section */
+  header {
+    background-color: #333;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 3em;
+  }
+  
+  header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+  
+  /* About Section */
+  #about {
+    padding: 50px 0;
+    background-color: white;
+    text-align: center;
+  }
+  
+  #about img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+  }
+  
+  #about p {
+    font-size: 1.2em;
+    max-width: 800px;
+    margin: 20px auto;
+  }
+  
+  /* Skills Section */
+  #skills {
+    background-color: #fafafa;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  #skills ul {
+    list-style-type: none;
+  }
+  
+  #skills li {
+    font-size: 1.1em;
+    margin: 10px 0;
+  }
+  
+  /* Projects Section */
+  #projects {
+    padding: 50px 0;
+    background-color: white;
+  }
+  
+  #projects .project {
+    margin-bottom: 30px;
+  }
+  
+  #projects h3 {
+    font-size: 1.8em;
+    margin-top: 20px;
+  }
+  
+  #projects img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+  }
+  
+  #projects a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    margin-top: 10px;
+    display: inline-block;
+  }
+  
+  /* Resume Section */
+  #resume {
+    padding: 50px 0;
+    background-color: #fafafa;
+    text-align: center;
+  }
+  
+  #resume a {
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  /* Contact Section */
+  #contact {
+    padding: 50px 0;
+    background-color: white;
+    text-align: center;
+  }
+  
+  #contact p {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  /* Footer Section */
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: 1em;
+  }
+  
+  footer ul {
+    list-style-type: none;
+    margin-top: 10px;
+  }
+  
+  footer ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
